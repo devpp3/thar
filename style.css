@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    background-image: url(./img/thar);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.buttongrp{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   align-items: center;
+}
+
+button{
+margin: 15px;
+padding: 25px;
+width: 200px;
+background-color: black;
+color: white;
+border-radius: 20px;
+font-size: 15px;
+font-weight: bolder;
+
+}
